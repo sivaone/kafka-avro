@@ -1,0 +1,33 @@
+{
+  "doc": "Schema for a real estate property.",
+  "fields": [
+    {
+      "doc": "The unique id of a holding.",
+      "name": "holdingId",
+      "type": "long"
+    },
+    {
+      "doc": "The type of holding.",
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "doc": "The value of the property.",
+      "name": "value",
+      "type": "double"
+    },
+    {
+      "doc": "The address of the property.",
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "doc": "The date when property is added.",
+      "name": "createdDate",
+      "type": "long"
+    }
+  ],
+  "name": "HoldingRecord",
+  "namespace": "com.sivanagireddy.holdings",
+  "type": "record"
+}
